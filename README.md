@@ -1,2 +1,3 @@
-# albert3su.github.io
-personal website
+# Albert Su's Personal Website
+
+My first website to display projects
