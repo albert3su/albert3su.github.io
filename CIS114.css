@@ -18,5 +18,5 @@ html {
 .button:hover {
     background-color: #FDB515; /* California Gold */
     color: #003262; /* Berkeley Blue */
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 16px 48px 0 rgba(0,0,0,0.19);
 }
