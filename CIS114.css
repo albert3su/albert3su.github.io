@@ -3,7 +3,7 @@ html {
     background-size: cover;
     font-family: Georgia, serif;
     text-align: center;
-    color: white; /* Founder's Rock */
+    color: white;
 }
 .button {
     background-color: #003262 ; /* Berkeley Blue */
@@ -23,12 +23,27 @@ html {
     color: #003262; /* Berkeley Blue */
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 16px 48px 0 rgba(0,0,0,0.19);
 }
-table, th, td {
-    border: 3px black;
-    border-spacing: 30px;
-}
-.center {
+table {
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #dddddd;
 }
 
+th, td {
+    border: 3px none black;
+    border-collapse: initial;
+    padding: 16px;
+}
+.centered-table {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: lightslategray;
+}
+.centered-table th,
+.centered-table td {
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px black;
+}
